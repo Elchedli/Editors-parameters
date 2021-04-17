@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -20,11 +23,11 @@
   <action id="StretchSplitToLeft">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
-  <action id="StretchSplitToRight">
+  <action id="TabList">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id="TableResult.GrowSelection" />
   <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
 </keymap>
